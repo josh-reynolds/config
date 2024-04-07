@@ -33,6 +33,9 @@
   # automatic TZ detection
   services.automatic-timezoned.enable = true;
 
+  # Use local time for compatibility with Windows dual-boot
+  time.hardwareClockInLocalTime = true;
+
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
