@@ -110,6 +110,7 @@
    pkgs.neovim
    pkgs.tmux
    pkgs.gimp
+   pkgs.python3
  ];
 
   # Some programs need SUID wrappers, can be configured further or are
