@@ -93,7 +93,7 @@
     description = "Josh Reynolds";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
+    #  firefox
     #  thunderbird
     ];
   };
@@ -111,6 +111,7 @@
    pkgs.tmux
    pkgs.gimp
    pkgs.python3
+   pkgs.librewolf
  ];
 
   # Some programs need SUID wrappers, can be configured further or are
