@@ -112,6 +112,7 @@
    pkgs.gimp
    pkgs.python3
    pkgs.librewolf
+   pkgs.krita
  ];
 
   # Some programs need SUID wrappers, can be configured further or are
